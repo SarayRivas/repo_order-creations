@@ -1,5 +1,5 @@
 from django.contrib import admin
-from . models import Inventory, Product, Warehouse, Shelve, WarehouseCreation, OrderCreation, AuditLog
+from . models import Inventory, Product, Warehouse, Shelve,  OrderCreation
 
 admin.site.register(Inventory)
 admin.site.register(Product)
